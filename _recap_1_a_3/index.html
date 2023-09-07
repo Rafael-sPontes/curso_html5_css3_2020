@@ -16,14 +16,19 @@
     <br><br>
 
     <h1>Estrutura básica da página HTML</h1>
-    <p>
-        &lt;html&gt;<br>
-            &lt;head&gt;<br>
-            &lt;/head&gt;<br>
-            &lt;body&gt;<br>
-            &lt;/body&gt;<br>
+
+<pre>
+    <code>
+        &lt;html&gt;
+            &lt;head&gt;
+                &lt;tags&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+                &lt;tags&gt;
+            &lt;/body&gt;
         &lt;/html&gt;
-    </p>
+    </code>
+</pre>
 
     <br><hr>
     &lt;hr&gt;
@@ -53,23 +58,21 @@
     <p>
         <pre>
             <code>
-    &lt;head&gt;<br>
-        &lt;link rel="shortcut icon" href="recap_imagens/favicon.ico" type="image/x-icon"&gt;<br>
+    &lt;head&gt;
+        &lt;link rel="shortcut icon" href="recap_imagens/favicon.ico" type="image/x-icon"&gt;
     &lt;/head&gt;
             </code>
         </pre>
     </p>
     <br>
     <h1>link CSS</h1>
-    <p>
-        <pre>
-            <code>
-    &lt;head&gt;<br>
-        &lt;link rel="stylesheet" href="estilo/style.css"&gt;<br>
+<pre>
+    <code>
+    &lt;head&gt;
+        &lt;link rel="stylesheet" href="estilo/style.css"&gt;
     &lt;/head&gt;
-            </code>
-        </pre>
-    </p>
+    </code>
+</pre>
 
     <br><hr>
     &lt;hr&gt;
@@ -92,8 +95,8 @@
     <br><br>
 
     <h1>Código com Indentação</h1>
-    <pre>
-        <code>
+<pre>
+    <code>
     &lt;pre&gt;
         &lt;code&gt;
             num = int(input('Digite um número'))
@@ -104,25 +107,192 @@
             print('Fim do programa')
         &lt;/pre&gt;
     &lt;/code&gt;
-        </code>
-    </pre>
+    </code>
+</pre>
 
     <h1>Citações</h1>
 
     <blockquote>
-        <pre>
-            <code>
+<pre>
+    <code>
 &lt;blockquote&gt;
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque distinctio animi voluptates, dolor nesciunt expedita illo magni doloremque quasi aliquam eaque voluptas quaerat laudantium magnam consequatur aut neque quia culpa!
 &lt;/blockquote&gt;
-            </code>
-        </pre>
+    </code>
+</pre>
     </blockquote>
+
+    <h1>Abreviações</h1>
+
+    <p>
+        <abbr title="HyperText Markup Language">HTML</abbr> - &lt;abbr title="HyperText Markup Language"&gt;HTML &lt;/abbr&gt;<br><br>
+        <abbr title="Cascading Style Sheets">CSS</abbr> - &lt;abbr title="Cascading Style Sheets"&gt;CSS &lt;/abbr&gt;
+    </p>
+
+    <h1>Textos Invertidos</h1>
+
+    <p>
+        <bdo dir="ltr">Estudando HTML5 e CSS3!</bdo> [&lt;bdo dir="ltr"&gt;Estudando HTML5 e CSS3!&lt;/bdo&gt; ]<br><br>
+
+        <bdo dir="rtl">Estudando HTML5 e CSS3!</bdo> [&lt;bdo dir="rtl"&gt;Estudando HTML5 e CSS3!&lt;/bdo&gt; ]
+    </p>
 
     <br><hr>
     &lt;hr&gt;
     <br><br>
 
-    
+    <hr>
+
+    <h2>EXEMPLO DE LISTAS ORDENADAS:</h2>
+
+<pre>
+    <code>
+    &lt;ol type="1, A, a, I, i" start="0, 1, 4..."&gt;
+        &lt;li&gt;item 1&lt;/li&gt;
+        &lt;li&gt;item 2&lt;/li&gt;
+    &lt;/ol&gt;
+    </code>
+</pre>
+
+    <h1>Listas Ordenadas</h1>
+
+    <h2>Lista Numérica</h2>
+<pre>
+    <code>
+        &lt;ol type="1"&gt;
+            &lt;li&gt;items&lt;/li&gt;
+        &lt;/ol&gt;
+    </code>
+</pre>
+    <ol type="1">
+        <li>Acordar</li>
+        <li>Escovar os dentes</li>
+    </ol>
+
+    <h2>Lista Alfabética Maiúscula</h2>
+<pre>
+    <code>
+        &lt;ol type="A"&gt;
+            &lt;li&gt;items&lt;/li&gt;
+        &lt;/ol&gt;
+    </code>
+</pre>
+    <ol type="A">
+        <li>Tomar café</li>
+        <li>Ligar para o João</li>
+    </ol>
+
+    <h2>Lista Alfabética Minúscula</h2>
+<pre>
+    <code>
+        &lt;ol type="a"&gt;
+            &lt;li&gt;items&lt;/li&gt;
+        &lt;/ol&gt;
+    </code>
+</pre>
+    <ol type="a">
+        <li>Almoçar</li>
+        <li>Ir para a faculdade</li>
+    </ol>
+
+    <h2>Lista Numérica (ROMANOS Maiúsculo)</h2>
+<pre>
+    <code>
+        &lt;ol type="I"&gt;
+            &lt;li&gt;items&lt;/li&gt;
+        &lt;/ol&gt;
+    </code>
+</pre>
+    <ol type="I">
+        <li>Ir para o trabalho</li>
+        <li>Voltar para casa</li>
+    </ol>
+
+    <h2>Lista Numérica (ROMANOS Minúsculo)</h2>
+<pre>
+    <code>
+        &lt;ol type="i"&gt;
+            &lt;li&gt;items&lt;/li&gt;
+        &lt;/ol&gt;
+    </code>
+</pre>
+    <ol type="i">
+        <li>Jantar</li>
+        <li>Dormir</li>
+    </ol>
+
+    <hr>
+
+    <h2>EXEMPLO DE LISTAS NÃO ORDENADAS:</h2>
+
+<pre>
+    <code>
+    &lt;ol type="1, A, a, I, i" start="0, 1, 4..."&gt;
+        &lt;li&gt;item 1&lt;/li&gt;
+        &lt;li&gt;item 2&lt;/li&gt;
+    &lt;/ol&gt;
+    </code>
+</pre>
+
+    <h1>Listas NÃO Ordenadas</h1>
+
+    <h2>Lista NÃO Ordenada [DISC]</h2>
+    <pre>
+        <code>
+    &lt;ul type="disc"&gt;
+        &lt;li&gt;items&lt;/li&gt;
+    &lt;/ul&gt;
+        </code>
+    </pre>
+    <ul type="disc">
+        <li>Pão</li>
+        <li>Leite</li>
+    </ul>
+
+    <h2>Lista NÃO Ordenada [CIRCLE]</h2>
+    <pre>
+        <code>
+    &lt;ul type="circle"&gt;
+        &lt;li&gt;items&lt;/li&gt;
+    &lt;/ul&gt;
+        </code>
+    </pre>
+    <ul type="circle">
+        <li>Tomate</li>
+        <li>Manteiga</li>
+    </ul>
+
+    <h2>Lista NÃO Ordenada [SQUARE]</h2>
+    <pre>
+        <code>
+    &lt;ul type="square"&gt;
+        &lt;li&gt;items&lt;/li&gt;
+    &lt;/ul&gt;
+        </code>
+    </pre>
+    <ul type="square">
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+
+    <hr>
+
+    <h1>Links: Externos</h1>
+<pre>
+    <code>
+    &lt;p&gt;Acesse o GitHub -> &lt;a href="https://github.com/Rafael-sPontes" target="_blank" rel="external"&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+    </code>
+</pre>
+
+    <p>Acesse o GitHub -> <a href="https://github.com/Rafael-sPontes" target="_blank" rel="external">GitHub</a></p>
+
+    <h1>Links: Internos</h1>
+<pre>
+    <code>
+    &lt;p&gt;Acesse o GitHub -> &lt;a href="https://github.com/Rafael-sPontes" target="_blank" rel="external"&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+    </code>
+</pre>
+
+    <p>Acesse o GitHub -> <a href="index2.html" target="_self" rel="external">index2</a></p>
 </body>
 </html>
