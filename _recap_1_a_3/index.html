@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="recap_imagens/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="recap_estilo/style.css">
     <title>Recap Modulo 1</title>
 </head>
 <body>
@@ -294,5 +294,63 @@
 </pre>
 
     <p>Acesse o GitHub -> <a href="index2.html" target="_self" rel="external">index2</a></p>
+
+    <hr>
+
+    <h1>Tag Picture</h1>
+
+<pre>
+    <code>
+        &lt;picture&gt;
+            &lt;source media="(max-width: 750px)" srcset="recap_imagens/let-p.png" type="image/png"&gt;
+            &lt;source media="(max-width: 1050px)" srcset="recap_imagens/let-m.png" type="image/png"&gt;
+            &lt;img src="recap_imagens/let-g.png" alt="Imagem Flexível"&gt;
+        &lt;/picture&gt;
+    </code>
+</pre>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="recap_imagens/let-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="recap_imagens/let-m.png" type="image/png">
+        <img src="recap_imagens/let-g.png" alt="Imagem Flexível">
+    </picture>
+
+    <hr>
+
+    <h1>Tag Audio</h1>
+
+<pre>
+    <code>
+    &lt;audio controls&gt;
+        &lt;source src="recap_media/えぬヴぃろWORK.mp3" type="audio/mp3"&gt;
+        &lt;source src="recap_media/えぬヴぃろWORK.mp3" type="audio/ogg"&gt;
+        &lt;source src="recap_media/えぬヴぃろWORK.mp3" type="audio/wav"&gt;
+    &lt;/audio&gt;
+    </code>
+</pre>
+    <audio preload="metadata" controls loop>
+        <source src="recap_media/えぬヴぃろWORK.mp3" type="audio/mp3">
+        <source src="recap_media/えぬヴぃろWORK.mp3" type="audio/ogg">
+        <source src="recap_media/えぬヴぃろWORK.mp3" type="audio/wav">
+    </audio>
+
+    <hr>
+
+    <h1>Tag Video</h1>
+
+<pre>
+    <code>
+    &lt;video controls&gt;
+        &lt;source src="recap_media/Whitefox.mp4" type="video/mp4"&gt;
+        &lt;source src="recap_media/Whitefox.webm" type="video/webm"&gt;
+        &lt;source src="recap_media/Whitefox.mkv" type="video/mkv"&gt;
+    &lt;/video&gt;
+    </code>
+</pre>
+    <video controls>
+        <source src="recap_media/Whitefox.mp4" type="video/mp4">
+        <source src="recap_media/Whitefox.webm" type="video/webm">
+        <source src="recap_media/Whitefox.mkv" type="video/mkv">
+    </video>
 </body>
 </html>
