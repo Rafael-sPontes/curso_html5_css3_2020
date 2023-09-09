@@ -6,6 +6,29 @@
     <link rel="shortcut icon" href="recap_imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="recap_estilo/style.css">
     <title>Recap Modulo 1</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: rgba(240, 128, 128, 0.3);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        body h1 {
+            color: limegreen;
+        }
+
+        body h2 {
+            color: crimson;
+        }
+
+        video#whitefox {
+            width: 560px;
+        }
+    </style>
 </head>
 <body>
     <p>TROCAR: &lt;html lang="en"&gt;&lt;/html&gt;</p>
@@ -340,17 +363,20 @@
 
 <pre>
     <code>
-    &lt;video controls&gt;
+    &lt;video id="whitefox" controls&gt;
         &lt;source src="recap_media/Whitefox.mp4" type="video/mp4"&gt;
         &lt;source src="recap_media/Whitefox.webm" type="video/webm"&gt;
         &lt;source src="recap_media/Whitefox.mkv" type="video/mkv"&gt;
     &lt;/video&gt;
     </code>
 </pre>
-    <video controls>
+    <video id="whitefox" controls>
         <source src="recap_media/Whitefox.mp4" type="video/mp4">
         <source src="recap_media/Whitefox.webm" type="video/webm">
         <source src="recap_media/Whitefox.mkv" type="video/mkv">
     </video>
+
+    <h1>Videos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=odf6C8HZC-AFwVGI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </body>
 </html>
