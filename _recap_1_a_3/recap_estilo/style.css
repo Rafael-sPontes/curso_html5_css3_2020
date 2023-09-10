@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgba(240, 128, 128, 0.3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body h1 {
+    color: limegreen;
+}
+
+body h2 {
+    color: crimson;
+}
+
+video#whitefox {
+    width: 560px;
+}
+
+div.grad {
+    height: 50px;
+    width: 100%;
+}
+
+div.grad1, div.grad2, div.grad3, div.grad4 {
+    display: inline-block;
+    margin: -3px;
+    height: 50px;
+    width: 25%;
+}
+
+div.grad1 {
+    background-image: linear-gradient(to right, darkgreen, aqua, blueviolet 90%);
+}
+
+div.grad2 {
+    background-image: linear-gradient(to top, chocolate, chartreuse 80%);
+}
+
+div.grad3 {
+    background-image: linear-gradient(to bottom, dodgerblue, coral 80%);
+}
+
+div.grad4 {
+    background-image: linear-gradient(to left, orange, cadetblue, deeppink 90%);
+}
