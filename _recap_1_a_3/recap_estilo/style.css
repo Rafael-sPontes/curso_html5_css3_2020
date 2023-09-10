@@ -1,5 +1,16 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'oswald';
+    src:url('recap_fontes/oswald_bold.otf') format('opentype'), url('recap_fontes/oswald_bold.ttf') format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Meroitic&family=Passion+One:wght@400;700;900&display=swap');
+
+:root {
+    --fonte_padrao: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -23,6 +34,7 @@ video#whitefox {
 }
 
 div.grad {
+    margin-top: 10px;
     height: 50px;
     width: 100%;
 }
@@ -48,4 +60,16 @@ div.grad3 {
 
 div.grad4 {
     background-image: linear-gradient(to left, orange, cadetblue, deeppink 90%);
+}
+
+.espaco {
+    margin-top: 10px;
+}
+
+p.fontimport {
+    font-family: 'Noto Sans Meroitic', sans-serif;
+}
+
+p.fontbaix {
+    font-family: 'oswald';
 }
