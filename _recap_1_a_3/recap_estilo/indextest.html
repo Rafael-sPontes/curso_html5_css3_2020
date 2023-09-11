@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouVideos</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: black;
+            color: gold;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        /* divs part1 */
+
+        div#part1 {
+            width: 100%;
+            height: 56.25vw;
+            background-image: linear-gradient(to bottom, blueviolet, brown 60%);
+        }
+
+        div#part1 > iframe {
+            width: calc(100% - 20px);
+            height: calc(100% - 20px);
+            margin: 10px;
+        }
+
+        /* divs part2 */
+
+        div#part2 {
+            margin-top: 10px;
+            width: 100%;
+            height: 28.125vw;
+            background-image: linear-gradient(to bottom, chocolate, aqua 130%);
+        }
+
+        div#part2 > div {
+            background-color: rgba(0, 255, 0, 0.3);
+            border: 1px solid yellow;
+            float: left;
+            width: 50%;
+            height: 100%;
+            margin: -1px;
+        }
+
+        div#part2 > div > iframe {
+            width: calc(100% - 20px);
+            height: calc(100% - 20px);
+            margin: 10px;
+        }
+
+        /* divs part3 */
+
+        div#part3 {
+            margin-top: 10px;
+            width: 100%;
+            height: 18.748vw;
+            background-image: linear-gradient(to bottom, hotpink, lawngreen 110%);
+        }
+
+        div#part3 > div {
+            background-color: rgba(0, 255, 0, 0.3);
+            border: 1px solid yellow;
+            float: left;
+            width: 33.33%;
+            height: 100%;
+            margin: -1px;
+        }
+
+        div#part3 > div > iframe {
+            width: calc(100% - 20px);
+            height: calc(100% - 20px);
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>YouTube Videos [ TESTE ] &lt; iframe &gt;</h1>
+
+    <div id="part1">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/kdEULJBW0g8?si=xPHmpKh9HZ1vcBny" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <div id="part2">
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2do3DFASL-I?si=uuVfYXTWeeZ9VoWK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Kuw-hs_1j3Y?si=_cZpyr7mxEiM1Os3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div id="part3">
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/4i-uX_jy5ds?si=l8uBkL4_tmnCmhNd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div>
+            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/FSghbp5OIQY?si=97UtXuo4e8iJo-1B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2BtcXQXPQOw?si=oBzXLyyaZRhiJXz5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+</body>
+</html>
