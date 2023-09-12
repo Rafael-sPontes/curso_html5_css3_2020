@@ -8,5 +8,64 @@
 body {
     background-image: url('../recap_imagens/back.jpg');
     background-size: 10%;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
+    padding: 10px;
+}
+
+main {
+    padding: 10px;
+    margin: auto;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    height: 740px;
+}
+
+section {}
+
+
+div.square {
+    background-color: blue;
+    background-image: url('../recap_imagens/squares.png');
+    float: left;
+    width: 30%;
+    height: 30vh;
+    margin: 1.66%;
+}
+
+div#d1 {
+    background-position: left top;
+}
+
+div#d2 {
+    background-position: center top;
+}
+
+div#d3 {
+    background-position: right top;
+}
+
+div#d4 {
+    background-position: center left;
+}
+
+div#d5 {
+    background-position: center center;
+}
+
+div#d6 {
+    background-position: center right;
+}
+
+div#d7 {
+    background-position: left bottom;
+}
+
+div#d8 {
+    background-position: center bottom;
+}
+
+div#d9 {
+    background-position: right bottom;
 }
